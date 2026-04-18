@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Dosen - Intan Trisakti</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&display=swap");
+      body {
+        font-family: "Inter", system-ui, sans-serif;
+      }
+      h1,
+      h2 {
+        font-family: "Playfair Display", sans-serif;
+      }
+      .hero-bg {
+        background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-950 text-slate-200">
+    <!-- Navbar -->
+    <nav
+      class="fixed top-0 w-full bg-slate-950/90 backdrop-blur-md border-b border-slate-800 z-50"
+    >
+      <div
+        class="max-w-7xl mx-auto px-8 py-5 flex justify-between items-center"
+      >
+        <div class="text-2xl font-semibold tracking-tight">Intan Trisakti, S.Farm., M.Farm.</div>
+        <div class="flex gap-8 text-sm font-medium">
+          <a href="#tentang" class="hover:text-emerald-400 transition"
+            >Tentang</a
+          >
+          <a href="#penelitian" class="hover:text-emerald-400 transition"
+            >Penelitian</a
+          >
+          <a href="#pengajaran" class="hover:text-emerald-400 transition"
+            >Pengajaran</a
+          >
+          <a href="#kontak" class="hover:text-emerald-400 transition">Kontak</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg min-h-screen flex items-center pt-20">
+      <div
+        class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center"
+      >
+        <div>
+          <div
+            class="inline-flex items-center gap-2 bg-emerald-400/10 text-emerald-400 text-xs font-medium px-4 py-2 rounded-full mb-6"
+          >
+            <i class="fa-solid fa-graduation-cap"></i> DOSEN
+          </div>
+          <h1 class="text-7xl font-bold leading-none tracking-tighter mb-4">
+            Intan Trisakti, S.Farm., M.Farm.
+          </h1>
+          <p class="text-4xl text-slate-400 mb-6">
+            Dosen S1-Farmasi/Fakultas Kesehatan & Teknologi<br />[Nama
+            Universitas Anda]
+          </p>
+          <p class="text-xl text-slate-300 max-w-lg mb-10">
+            Membangun pengetahuan. Menginspirasi generasi. Mendorong riset
+            berdampak.
+          </p>
+          <div class="flex gap-4">
+            <a
+              href="#kontak"
+              class="bg-emerald-400 hover:bg-emerald-500 text-slate-950 px-8 py-4 rounded-2xl font-semibold flex items-center gap-3 transition"
+              >Hubungi Saya <i class="fa-solid fa-arrow-right"></i
+            ></a>
+            <a
+              href="CV_IntanTrisakti.pdf"
+              onclick="alert('Membuka CV')"
+              class="border border-slate-300 hover:border-emerald-400 px-8 py-4 rounded-2xl font-semibold flex items-center gap-3 transition"
+              >Download CV <i class="fa-solid fa-download"></i
+            ></a>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="profil.jpeg"
+            alt="Intan Trisakti, S.Farm., M.Farm."
+            class="w-80 h-80 object-cover rounded-3xl shadow-2xl shadow-emerald-500/30"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang" class="py-24 bg-slate-900">
+      <div class="max-w-7xl mx-auto px-8">
+        <h2 class="text-5xl font-semibold text-center mb-12">Tentang Saya</h2>
+        <div class="max-w-3xl mx-auto text-lg text-slate-300 text-center">
+          Lecturer in the Bachelor of Pharmacy Program, Faculty of Health and
+          Technology, Universitas Aisyiyah Palembang, with expertise in
+          Pharmaceutics and Pharmaceutical Technology. Actively involved in
+          teaching, research, and academic development, with a particular
+          interest in drug formulation, drug delivery systems, and
+          pharmaceutical product development.
+        </div>
+      </div>
+    </section>
+
+    <!-- Penelitian -->
+    <section id="penelitian" class="py-24">
+      <div class="max-w-7xl mx-auto px-8">
+        <h2 class="text-5xl font-semibold text-center mb-12">Penelitian</h2>
+        <div class="flex justify-center gap-4 mb-12">
+          <a
+            href="https://scholar.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-emerald-400 px-5 py-3 rounded-2xl flex items-center gap-3 transition"
+            title="Google Scholar"
+          >
+            <i class="fa-solid fa-graduation-cap text-emerald-400 text-xl"></i>
+            <span class="text-sm font-medium">Google Scholar</span>
+          </a>
+
+          <a
+            href="https://sinta.kemdiktisaintek.go.id/authors/profile/6989010"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-emerald-400 px-5 py-3 rounded-2xl flex items-center gap-3 transition"
+            title="SINTA"
+          >
+            <i class="fa-solid fa-award text-emerald-400 text-xl"></i>
+            <span class="text-sm font-medium">SINTA</span>
+          </a>
+        </div>
+        <div class="flex justify-center gap-8 mb-10">
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-slate-900 p-8 rounded-3xl hover:shadow-xl hover:shadow-emerald-400/20 transition"
+          >
+            <i class="fa-solid fa-flask text-4xl text-emerald-400 mb-6"></i>
+            <h3 class="text-2xl font-semibold mb-3">Evaluasi Ketersediaan Pelayanan Informasi Obat (PIO) Resep Obat Salep Mata Kloramfenikol di Apotik Kota Pagar Alam</h3>
+            <p class="text-slate-400 mb-6">Penelitian ini menerbitkan Pelayanan ketersediaan Informasi Obat (PIO) pada resep salep mata kloramfenikol di apotek Kota Pagar Alam berdasarkan standar Permenkes No. 73 Tahun 2016. Hasil menunjukkan sebagian besar apotek hanya memberikan informasi dasar seperti cara pemakaian, sementara informasi penting lainnya seperti efek samping, interaksi, dan penyimpanan masih kurang disampaikan. (2025)</p>
+            <a
+              href="https://scholar.google.co.id/scholar?oi=bibs&cluster=15140315983625000617&btnI=1&hl=id"
+              class="text-emerald-400 text-sm font-medium flex items-center gap-2"
+              >Detail <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div
+            class="bg-slate-900 p-8 rounded-3xl hover:shadow-xl hover:shadow-emerald-400/20 transition"
+          >
+            <i class="fa-solid fa-flask text-4xl text-emerald-400 mb-6"></i>
+            <h3 class="text-2xl font-semibold mb-3">Karakterisasi Nanopartikel Kitosan-Asam Folat Bermuatan Zerumbone dan Aktivitas Sitotoksiknya Terhadap Sel MCF-7</h3>
+            <p class="text-slate-400 mb-6">Penelitian ini mengkaji pengembangan zerumbone sebagai antikanker dalam bentuk nanopartikel kitosan-terkonjugasi asam folat untuk meningkatkan penyerapan sel. Nanopartikel yang dihasilkan memiliki karakteristik fisik yang baik dan menunjukkan aktivitas sitotoksik terhadap sel kanker MCF7, dengan nilai IC50 sebesar 14,270 µg/ml. (2024)</p>
+            <a
+              href="https://scholar.google.co.id/scholar?oi=bibs&cluster=2121258767499832288&btnI=1&hl=id"
+              class="text-emerald-400 text-sm font-medium flex items-center gap-2"
+              >Detail <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div
+            class="bg-slate-900 p-8 rounded-3xl hover:shadow-xl hover:shadow-emerald-400/20 transition">
+            <i class="fa-solid fa-flask text-4xl text-emerald-400 mb-6"></i>
+            <h3 class="text-2xl font-semibold mb-3">Profil Spektra FTIR (Fourier Transform Independent Spectrophotometry) Sari Ikan Gabus (Channa striata) dengan Varias</h3>
+            <p class="text-slate-400 mb-6">Penelitian ini mengkaji profil spektra FTIR sari ikan gabus (Channa striata) dari berbagai metode ekstraksi untuk menentukan hasil terbaik. Ikan gabus yang kaya albumin berpotensi dimanfaatkan untuk penyembuhan luka. Hasil menunjukkan tiga puncak utama (OH, NH, OCN), dan diperlukan uji lanjutan untuk meningkatkan kualitas produk (2023)</p>
+            <a
+              href="https://scholar.google.co.id/scholar?oi=bibs&cluster=280456799282982186&btnI=1&hl=id"
+              class="text-emerald-400 text-sm font-medium flex items-center gap-2"
+              >Detail <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pengajaran -->
+    <section id="pengajaran" class="py-24">
+      <div class="max-w-7xl mx-auto px-8">
+        <h2 class="text-5xl font-semibold text-center mb-12">Mata Kuliah</h2>
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div class="bg-slate-900 p-8 rounded-3xl flex items-center gap-6">
+            <i class="fa-solid fa-book text-5xl text-emerald-400"></i>
+            <div>
+              <h4 class="font-semibold text-2xl">Teknologi Sediaan Farmasi Solid</h4>
+              <p class="text-slate-400">Semester 5</p>
+            </div>
+          </div>
+          <div class="bg-slate-900 p-8 rounded-3xl flex items-center gap-6">
+            <i class="fa-solid fa-book text-5xl text-emerald-400"></i>
+            <div>
+              <h4 class="font-semibold text-2xl">Teknologi Sediaan Farmasi Semisolid dan Liquid</h4>
+              <p class="text-slate-400">Semester 4
+            </div>
+          </div>
+          <div class="bg-slate-900 p-8 rounded-3xl flex items-center gap-6">
+            <i class="fa-solid fa-book text-5xl text-emerald-400"></i>
+            <div>
+              <h4 class="font-semibold text-2xl">Teknologi Sediaan Farmasi Steril</h4>
+              <p class="text-slate-400">Semester 6
+            </div>
+          </div>
+          <div class="bg-slate-900 p-8 rounded-3xl flex items-center gap-6">
+            <i class="fa-solid fa-book text-5xl text-emerald-400"></i>
+            <div>
+              <h4 class="font-semibold text-2xl">Kosmetika dan Nutaseutika</h4>
+              <p class="text-slate-400">Semester 6
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="py-24 bg-slate-900">
+      <div class="max-w-7xl mx-auto px-8 text-center">
+        <h2 class="text-5xl font-semibold mb-8">Hubungi Saya</h2>
+        <div class="flex justify-center gap-6">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=intantrisakti@unisa-palembang.ac.id&su=Konsultasi&body=Halo%20Ibu%20Intan"
+            target="_blank"
+            class="bg-emerald-400 text-slate-950 px-10 py-5 rounded-2xl font-medium flex items-center gap-3 hover:scale-105 transition"
+          >
+            <i class="fa-solid fa-envelope"></i> Email
+          </a>
+          <a
+            href="https://www.instagram.com/intansalim24?igsh=MTZvZHRzbHAyeG81MA=="
+            target="_blank"
+            class="border border-slate-300 px-10 py-5 rounded-2xl font-medium flex items-center gap-3 hover:border-emerald-400 transition"
+          >
+            <i class="fa-brands fa-instagram"></i> Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 text-center text-slate-400 text-sm">
+      © 2026 Intan Trisakti.
+    </footer>
+
+    <script>
+      // Tailwind script sudah di-load
+      document.documentElement.classList.add("dark");
+    </script>
+  </body>
+</html>
